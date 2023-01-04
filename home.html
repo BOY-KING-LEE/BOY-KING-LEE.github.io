@@ -1,0 +1,105 @@
+{%  extends 'base.html'  %}
+{% load static %}
+{% block title %} home.tml {%endblock%}
+
+
+{%block extra_style %}
+<style type = "text/css">
+.home-image {
+	background-image : url("{% static 'img/final.jpg' %}");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 450px;
+	border-top: 10px solid #ccc;
+	border_bottom: 10px solid #ccc
+	padding: 20px 0 0 20px;
+}
+
+.title {
+	color: #c98;
+	font-weight: bold;
+}
+
+.powered {
+	position: relative;
+	top:77%;
+	color: #c15;
+	font-style: italic;
+}
+
+</style>
+{%endblock%}
+
+
+{%block content %}
+
+
+	<div class="home-image">
+		<br>	
+		<h2 class="title">지수와 후추의 사이트</h2>
+		<h4 class="powered"><i class = "fas fa-arrow-circle-right"></i> ♥지수와 후추의 행복한 일상♥ </h4>
+	</div>
+
+	<hr style = "margin: 10px 0;">
+
+	<div class="row text-center">
+		<div class="col-sm-6">  
+			<h2>Bookmark App</h2>
+			<p>다양한 웹사이트 리스트가 있고, 그것을 누르기만 하면 바로 그 사이트로 편리하게 이동할 수 있습니다. </p>
+		</div>
+	
+
+
+		<div class="col-sm-6">
+			<h2>Blog App</h2>
+			<p>오늘의 감정이나 생각들을 자유롭게 적고 저장할 수 있는 앱입니다. 다른말로 인터넷 일기라고도 합니다. 오늘 있었던 일들이나 감사했던것들 등등을 작성합니다.</p>
+		</div>
+	</div>
+{% endblock content %}
+
+{% block footer %}
+<footer class="fixed-bottom bg-info">
+	<div class="text-black font-italic text-right mr-5">Copyright &copy; 2019 ChiWaWa Monster  and  JiSu Lee</div>
+</footer>
+{%endblock%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
