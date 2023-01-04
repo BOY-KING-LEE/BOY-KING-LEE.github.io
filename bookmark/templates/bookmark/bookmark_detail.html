@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %} bookmark_detail.html {% endblock %}
+
+{% block content %}
+	<br>
+	<h1>{{object.title}}</h1>
+	<br><br>
+	<ul>
+		<li>URL: <a href="{{ object.url }}">{{object.url }}</a></li>
+	</ul>
+{% endblock %}
+
+
+
+
